@@ -1,3 +1,4 @@
+
 package ingresso.model;
 
 public class TestaIngresso {
@@ -9,6 +10,13 @@ public class TestaIngresso {
 	
 		ingresso1.visualizar();
 		ingresso2.visualizar();
+		
+		Vip vip1= new Vip(1, 100.00f, 50.00f, "Peça de teatro", 4,  "Primeira fileira");
+		Vip vip2= new Vip(2, 70.00f, 35.00f, "Show Alunos Clac", 2, "Segunda fileira");
+		
+		vip1.visualizar();
+		vip2.visualizar();
+		
 		
 	}
 

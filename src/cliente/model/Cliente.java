@@ -5,17 +5,15 @@ public class Cliente {
 	private String nome;
 	private String sobrenome;
 	private String sexo;
-	private String cpf;
 	private int rg;
 	
 	//---Generate constructor using Fields...
 	
-	public Cliente(String nome, String sobrenome, String sexo, String cpf, int rg) {
+	public Cliente(String nome, String sobrenome, String sexo, int rg) {
 		//super();
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.sexo = sexo;
-		this.cpf = cpf;
 		this.rg = rg;
 	}
 
@@ -43,14 +41,6 @@ public class Cliente {
 		this.sexo = sexo;
 	}
 
-	public String getCpf() {
-		return cpf;
-	}
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-
 	public int getRg() {
 		return rg;
 	}
@@ -64,7 +54,6 @@ public class Cliente {
 				" \n Nome: " + this.nome +
 				" \n Sobrenome: " + this.sobrenome +
 				" \n Sexo: " + this.sexo +
-				" \n CPF: " + this.cpf +
 				" \n RG: " + this.rg);
 		
 	}
