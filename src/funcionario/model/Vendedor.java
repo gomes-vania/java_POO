@@ -18,6 +18,7 @@ public class Vendedor extends Funcionario{
 	}
 	
 	public void visualizar() {
+		super.visualizar();
 		System.out.println("Vendedor [id=" + id + "]");
 	}
 

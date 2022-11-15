@@ -19,6 +19,7 @@ public class PessoaFisica extends Cliente {
 	}
 
 	public void visualizar() {
+		super.visualizar();
 		System.out.println(
 				" \n CPF do cliente: " + this.cpf
 				);

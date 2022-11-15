@@ -18,6 +18,7 @@ public class Gerente extends Funcionario {
 	}
 
 	public void visualizar() {
+		super.visualizar();
 		System.out.println("Gerente [id=" + id + "]");
 	}
 	

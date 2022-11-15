@@ -18,6 +18,7 @@ public class PessoaJuridica extends Cliente{
 	}
 	
 	public void visualizar() {
+		super.visualizar();
 		System.out.println(
 				" \n CNPJ do cliente: " + this.cnpj
 				);

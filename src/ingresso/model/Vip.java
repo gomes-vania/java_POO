@@ -2,24 +2,18 @@ package ingresso.model;
 
 public class Vip extends Ingresso {
 	
-	private String lugarVip;
-
-	public Vip(int id, float precoEntradaInteira, float precoMeiaEntrada, String tipoShow, int quantidade, String lugarVip) {
-		super(id, precoEntradaInteira, precoMeiaEntrada, tipoShow, quantidade);
-		this.lugarVip = lugarVip;
-	}
-
-	public String getLugarVip() {
-		return lugarVip;
-	}
-
-	public void setLugarVip(String lugarVip) {
-		this.lugarVip = lugarVip;
-	}
+	private float precoVip;
 	
+	public Vip(int id, String tipoShow, int quantidade, float precoVio) {
+		super(id, tipoShow, quantidade);
+		this.precoVip =precoVio;
+		
+	}
+
+
 	public void visualizar() {
 		System.out.println(
-				" \n Lugar vip: " + this.lugarVip
+				" \n Preço do ingresso vip: " + this.precoVip
 				);
 	}
 }
