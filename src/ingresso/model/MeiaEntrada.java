@@ -17,6 +17,7 @@ public class MeiaEntrada extends Ingresso {
 	}
 	
 	public void visualizar() {
+		super.visualizar();
 		System.out.println(
 				" \n Preço do ingresso meia entrada: " + this.precoMeiaEntrada
 				);

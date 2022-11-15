@@ -12,6 +12,7 @@ public class Vip extends Ingresso {
 
 
 	public void visualizar() {
+		super.visualizar();
 		System.out.println(
 				" \n Preço do ingresso vip: " + this.precoVip
 				);
